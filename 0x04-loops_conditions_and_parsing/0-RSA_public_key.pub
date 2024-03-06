@@ -1,12 +1,1 @@
-# Generate RSA key pair
 ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
-
-# Copy public key to answer file
-cat ~/.ssh/id_rsa.pub > 0-RSA_public_key.pub
-
-# Fill SSH public key field in your intranet profile manually
-
-# Securely store private key
-# Example: Move to a secure location
-mv ~/.ssh/id_rsa /path/to/secure/location/
-
