@@ -1,3 +1,14 @@
+sudo apt-get update #Update system
+sudo apt-get install ufw #ufw installation
+sudo ufw enable #Enabling ufw
+sudo ufw allow 22/tcp #Enable port 22
+sudo ufw allow 443/tcp #enable ssh port
+sudo ufw allow 80/tcp #enable http port
+sudo ufw default deny incoming #deny any other incoming comming traffic
+
+#Check the statsu if rules are set correctly
+
+sudo ufw verbose
 2
 3
 1
