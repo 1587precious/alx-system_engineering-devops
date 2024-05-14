@@ -78,3 +78,6 @@ COMMIT
 
 # don't delete the 'COMMIT' line or these rules won't be processed
 COMMIT
+sudo ufw allow 80/tcp
+sudo ufw allow 8080/tcp
+
