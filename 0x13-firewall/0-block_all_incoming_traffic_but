@@ -12,7 +12,3 @@ sudo ufw verbose
 2
 3
 1
-sudo ufw allpw 80/tcp
-sudo ufw allow 443/tcp
-sudo ufw default deny incoming
-sudo ufw enable

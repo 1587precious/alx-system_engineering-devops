@@ -1,3 +1,7 @@
+ufw allow 80/tpc
+ufw allow 443/tpc
+ufw allow 22/tpc
+ufw enable
 #
 # rules.before
 #
