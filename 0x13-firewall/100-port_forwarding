@@ -78,6 +78,7 @@ COMMIT
 
 # don't delete the 'COMMIT' line or these rules won't be processed
 COMMIT
+sudo systemctl restart ufw
 sudo ufw allow 80/tcp
 sudo ufw allow 8080/tcp
-
+sudo ufw default deny incoming
